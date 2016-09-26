@@ -39,6 +39,7 @@ fi
 
 #
 # Figure out the location of the pre-commit package
+# NOTE: currently does not work on Windows machine
 #
 PRECOMMIT="$(dirname "$(readlink "$0")")"
 
